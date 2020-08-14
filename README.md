@@ -4,4 +4,4 @@
 
 ### It uses MySQL database and the EER diagram is below:
 
-![image](EER_diagram.png)
+![image](EER_diagram.jpg)
