@@ -4,4 +4,4 @@
 
 ### It uses MySQL database and the EER diagram is below:
 
-![image](MyFlix_Architecture.png)
+![image](EER_diagram.png)
