@@ -22,6 +22,9 @@ if(!isset($_COOKIE['name'])){
 </head>
 
 <body>
+  <div role="img" class="section-background-image"
+       style="background-position:-140% 0%; background-image: url(&quot;https://images.pexels.com/photos/929773/pexels-photo-929773.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=1850&amp;w=800&quot;);"
+       data-image-width="1024" data-image-height= auto;>
 
   <div class="container bg-light text-dark" style="opacity:95%;">
      <?php
