@@ -2,8 +2,17 @@
 if(!isset($_COOKIE['name'])){
     header("location: login.php");
     exit();
-} else {
+} else if(isset($_COOKIE['name'])){
     include('connect_to_db.php');
+
+    $user_id = $_COOKIE['id'];
+    $query_type = "SELECT * FROM users WHERE id = $user_id";
+    $type = $mysqli -> query($query_type);
+    $fetch_type = mysqli_fetch_assoc($type);
+    if ($fetch_type['role_id'] == 2){
+      header("location: login.php");
+      exit();
+    }
 }
 ?>
 
